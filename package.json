@@ -1,0 +1,26 @@
+{
+  "name": "gulp-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "gulp": "gulp",
+    "start:dev": "http-server ./dist"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-live-server": "^0.0.31",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "http-server": "^14.1.1",
+    "sass": "^1.64.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "gulp-prettier": "^5.0.0"
+  }
+}
